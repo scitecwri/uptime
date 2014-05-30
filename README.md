@@ -41,6 +41,12 @@ $ cd uptime
 $ npm install
 ```
 
+For access to ICMP (ping) on Linux as ordinary user
+
+```
+$ sudo setcap cap_net_raw=ep $(which node)
+```
+
 Lastly, start the application with:
 
 ```sh

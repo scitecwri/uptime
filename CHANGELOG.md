@@ -4,6 +4,7 @@ Uptime Changelog
 To be released
 --------------
 
+* Add back ICMP poller it can be used without root on Linux by use of setcap
 * Remove ICMP poller as it requires Uptime to be launched with root permissions to work
 * Add basicAuth plugin to restrict access to the API and dashboard apps using Basic Authentication
 * Upgrade moment.js to version 2.1
